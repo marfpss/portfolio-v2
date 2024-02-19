@@ -6,6 +6,26 @@
     font-family: "Montserrat", sans-serif;
 }
 
+.profile {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.profile-img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    object-fit: cover;
+    transition: transform 0.5s ease;
+}
+
+.profile:hover .profile-img {
+    transform: scale(1.1);
+}
+
 .hero__title {
     color: #fff;
     position: absolute;
@@ -15,6 +35,7 @@
     font-size: 2rem;
     text-align: center;
     z-index: 1;
+    text-shadow: 0px 5px 18px rgba(0, 0, 0, 1);
 }
 
 .hero_description {
@@ -26,7 +47,60 @@
     font-size: 0.8rem;
     text-align: center;
     z-index: 1;
+    text-shadow: 0px 5px 18px rgba(0, 0, 0, 1);
 }
+
+.icons {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    z-index: 999;
+    cursor: pointer;
+}
+
+.icons i {
+    font-size: 30px;
+    margin: 0 10px;
+    color: #fff;
+    transition: color 0.3s ease;
+}
+
+.icons i:hover {
+    color: #0051ff;
+    text-shadow: 0px 5px 18px #0051ff;
+}
+
+
+.title-skills h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+    display: flex;
+    color: #0040C1;
+    text-shadow: 0px 5px 18px #000000;
+}
+
+.icons-skills {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+    margin: 1rem;
+}
+
+.skills i {
+    font-size: 30px;
+    margin: 0 10px;
+    color: #0040C1;
+    transition: color 0.3s ease;
+}
+
+.skills i:hover {
+    color: #082d7c;
+    text-shadow: 0px 5px 18px #0051ff;
+}
+
 
 .cube {
     position: absolute;
