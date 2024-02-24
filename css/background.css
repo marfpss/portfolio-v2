@@ -101,6 +101,30 @@
     text-shadow: 0px 5px 18px #0051ff;
 }
 
+.linha-skills {
+    border-bottom: 2px solid #e1d7d7;
+    padding-bottom: 10px;
+}
+
+  #projetosCarousel img{
+      box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.1);
+      border-radius: 10px;
+      overflow: hidden;
+    border-bottom: 2px solid #e1d7d7;
+        padding-bottom: 10px;
+    }
+
+.projetos h1 {
+    display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 1rem;
+        display: flex;
+        color: #0040C1;
+        text-shadow: 0px 5px 18px #000000;
+        
+    }
+
 
 .cube {
     position: absolute;
