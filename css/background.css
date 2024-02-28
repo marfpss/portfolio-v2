@@ -3,14 +3,10 @@
     position: relative;
     height: 100vh;
     overflow: hidden;
-    font-family: "Montserrat", sans-serif;
-}
-
-.profile {
-    position: absolute;
-    top: 35%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .profile-img {
@@ -27,34 +23,30 @@
 }
 
 .hero__title {
-    color: #fff;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
     font-size: 2rem;
     text-align: center;
-    z-index: 1;
-    text-shadow: 0px 5px 18px rgba(0, 0, 0, 1);
+    color: #fff;
+    margin-top: 1rem;
+    justify-content: center;
+    font-weight: 600;
 }
 
 .hero_description {
-    color: #fff;
-    position: absolute;
-    top: 55%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 0.8rem;
+    font-weight: 400;
+    font-size: 1rem;
     text-align: center;
-    z-index: 1;
-    text-shadow: 0px 5px 18px rgba(0, 0, 0, 1);
+    text-align-last: center;
+    text-transform: capitalize;
+    justify-content: center;
+    text-wrap: balance;
+    color: #fff;
+
 }
 
 .icons {
     display: flex;
     justify-content: center;
-    margin-top: 20px;
-    z-index: 999;
+    align-items: center;
     cursor: pointer;
 }
 
@@ -70,13 +62,11 @@
     text-shadow: 0px 5px 18px #0051ff;
 }
 
-
 .title-skills h1 {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 1rem;
-    display: flex;
     color: #0040C1;
     text-shadow: 0px 5px 18px #000000;
 }
@@ -86,7 +76,6 @@
     justify-content: center;
     align-items: center;
     margin-top: 1rem;
-    margin: 1rem;
 }
 
 .skills i {
@@ -106,25 +95,22 @@
     padding-bottom: 10px;
 }
 
-  #projetosCarousel img{
-      box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.1);
-      border-radius: 10px;
-      overflow: hidden;
+#projetosCarousel img {
+    box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
     border-bottom: 2px solid #e1d7d7;
-        padding-bottom: 10px;
-    }
+    padding-bottom: 10px;
+}
 
 .projetos h1 {
     display: flex;
-        justify-content: center;
-        align-items: center;
-        margin-top: 1rem;
-        display: flex;
-        color: #0040C1;
-        text-shadow: 0px 5px 18px #000000;
-        
-    }
-
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+    color: #0040C1;
+    text-shadow: 0px 5px 18px #000000;
+}
 
 .cube {
     position: absolute;
@@ -199,5 +185,23 @@
     to {
         transform: scale(20) rotate(960deg) translate(-50%, -50%);
         opacity: 0;
+    }
+}
+
+@media (max-width: 768px) {
+    .profile-img {
+        width: 180px;
+        height: 180px;
+    }
+
+    .hero__title {
+        font-size: 1.5rem;
+        margin-top: 1rem;
+
+    }
+
+    .hero_description {
+        font-size: 0.8rem;
+
     }
 }
