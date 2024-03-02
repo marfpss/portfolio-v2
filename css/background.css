@@ -40,7 +40,10 @@
     justify-content: center;
     text-wrap: balance;
     color: #eee8e8;
+}
 
+.hero_description:hover {
+    color: #fff;
 }
 
 .icons {
@@ -58,7 +61,7 @@
 }
 
 .icons i:hover {
-    color: #0051ff;
+    color: #a1a0a0;
     text-shadow: 0px 5px 18px #0051ff;
 }
 
@@ -90,10 +93,35 @@
     text-shadow: 0px 5px 18px #0051ff;
 }
 
-.linha-skills {
-    border-bottom: 2px solid #e1d7d7;
-    padding-bottom: 10px;
+.about {
+    text-align: center;
 }
+
+.title-about {
+    font-size: 2rem;
+    margin-top: 4rem;
+    font-weight: 900;
+}
+
+ .description-about {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+     margin: 3rem;
+     border-bottom: 2px solid #e1d7d7;
+     padding-bottom: 20px;
+     text-wrap: balance;
+ }
+
+ .description-about p {
+     text-align:center;
+     text-transform: capitalize;
+     font-weight: 600;
+     font-size: 1rem;
+     margin: 10px 0;
+ }
+
 
 #projetosCarousel img {
     box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.1);

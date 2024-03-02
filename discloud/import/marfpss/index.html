@@ -2,49 +2,132 @@
 <html lang="pt-BR">
 
 <head>
-    <title>...</title>
+    <title>MarFpss | Portfolio</title>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link href="css/global.css" rel="stylesheet">
     <link href="css/header.css" rel="stylesheet">
+    <link href="css/background.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 </head>
 
 <body>
-    
+
     <header class="bg-dark text-white">
         <div class="container d-flex justify-content-between align-items-center">
-            <div class="logo font-weight-bold">Marcelo</div>
-            <nav class="navbar navbar-expand-lg">
+            <div class="logo font-weight-bold">MarFPSS</div>
+            <nav class="navbar navbar-expand-md">
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNav">
+                   
                     <ul class="navbar-nav">
-                        <li class="nav-item"><a class="nav-link" href="#habilidades">Habilidades</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#skills">Habilidades</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#projects">Projetos</a></li>
                         <li class="nav-item"><a class="nav-link" href="#sobre">Sobre Mim</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#curriculo">Currículo</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contato">Contato</a></li>
                     </ul>
                 </div>
             </nav>
         </div>
     </header>
+
     <div class="hero">
-        <h1 class="hero__title">Marcelo Henrique</h1>
-        <p class="hero_description">Welcome to my portfolio 👋</p>
+        <div class="profile">
+            <img class="profile-img" src="img/profile.jpeg" alt="Foto do perfil">
+        </div>
+        <h1 class="hero__title">Bem-vindo ao meu portfólio 🚀</h1>
+        <p class="hero_description">👋 Oi! Sou Marcelo Henrique, mais conhecido como MarFpss. Tenho 17 anos e sou
+            designer gráfico e editor de vídeo, apaixonado por web. Estudo para ser um Full Stack. Adoro criar designs
+            e vídeos impactantes. Aprendendo Front-End e Back-End para unir design e desenvolvimento. Vamos criar algo
+            incrível! 😎🚀</p>
+        <div class="cube"></div>
+        <div class="cube"></div>
+        <div class="cube" id="cube3"></div>
         <div class="cube"></div>
         <div class="cube"></div>
         <div class="cube"></div>
-        <div class="cube"></div>
-        <div class="cube"></div>
-        <div class="cube"></div>
+        <div class="icons" id="contato">
+            <a href="https://www.instagram.com/marcelokkk_019" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/marfpss" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="https://github.com/marfpss" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://discord.com/users/670558767963701248" target="_blank"><i class="fab fa-discord"></i></a>
+        </div>
     </div>
 
+    <div class="skills" id="skills">
+        <div class="title-skills">
+            <h1>Habilidades | Web Designer</h1>
+        </div>
+        <div class="icons-skills">
+            <i class="fab fa-html5"></i>
+            <i class="fa-brands fa-css3-alt"></i>
+            <i class="fa-brands fa-sass"></i>
+            <i class="fa-brands fa-bootstrap"></i>
+            <i class="fab fa-js"></i>
+            <i class="fab fa-react"></i>
+            <i class="fa-brands fa-git"></i>
+        </div>
+        <div class="linha-skills"></div>
+    </div>
+
+    <div class="projetos">
+        <h1 class="text-center mb-4" id="projects">Projetos</h1>
+    <div class="container mt-3">
+        <div id="projetosCarousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="img/site-1.png" class="d-block w-50 mx-auto img-fluid" alt="Projeto 1">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/site-2.png" class="d-block w-50 mx-auto img-fluid" alt="Projeto 2">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/site-3.png" class="d-block w-50 mx-auto img-fluid" alt="Projeto 3">
+                </div>
+    
+                <div class="carousel-item">
+                    <img src="img/banner-1.png" class="d-block w-50 mx-auto img-fluid" alt="Projeto 4">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/banner-2.png" class="d-block w-50 mx-auto img-fluid" alt="Projeto 5">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/banner-4.png" class="d-block w-50 mx-auto img-fluid" alt="Projeto 6">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/f7998c99e5.js" crossorigin="anonymous"></script>
+
+    <script>
+         $(document).ready(function () {
+                const carousel = $('#projetosCarousel');
+
+                carousel.carousel({
+                    interval: 2000
+                });
+
+                carousel.hover(
+                    function () {
+                        $(this).carousel('pause');
+                    },
+                    function () {
+                        $(this).carousel('cycle');
+                    }
+                );
+            });
+    </script>
+
 </body>
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"></script>
-<script src="script.js"></script>
+
 </html>
